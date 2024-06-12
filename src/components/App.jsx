@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
 import Statistics from "./Statistics/Statistics";
-import Section from "./Notification/Notification";
-import Notification from "./Section/Section";
+import Section from "./Section/Section"
+import Notification from "./Notification/Notification";
 
 
 class App extends Component {
@@ -38,7 +38,7 @@ class App extends Component {
       <div>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['good', 'neutral', 'bad']}
+            options={["good", "neutral", "bad"]}
             onLeaveFeedback={this.handleFeedback}
           />
         </Section>
