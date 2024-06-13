@@ -1,0 +1,22 @@
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}
+
